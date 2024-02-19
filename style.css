@@ -1,0 +1,167 @@
+#body{
+    height: 1000px;
+    background-image: url("assets/images/background-image.webp");
+    background-size: cover;
+    background-position: center;
+}
+:root{
+    --primary-color: #999999;
+    --secondary-color: #000000;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.padding{
+    padding: 20px 40px !important;
+}
+/* section header start */
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-header .social-links i{
+    margin-right: 10px;
+}
+.top-header h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+.top-header span{
+    color: var(--primary-color);
+}
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.header h3{
+    font-size: 20px;
+}
+.header span{
+    font-size: 12px;
+    text-align: center;
+    color: pink;
+}
+.header .logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-wrapper h3{
+    line-height: 15px;
+}
+.logo-wrapper i{
+    font-size: 30px;
+    color: pink;
+}
+.logo-wrapper span{
+    font-size: 12px;
+    color: pink;
+}
+.navigation{
+    display: flex;
+}
+.navigation ul{
+    display: flex;
+    gap: 10px;
+}
+.navigation ul li a{
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.navigation ul :last-child a{
+    padding: 15px 20px;
+    background-color: pink;
+    color: #ffffff;
+}
+.navigation .mobile-icon{
+    display: none;
+}
+/* section header End */
+
+
+/* section slider start */
+.slider-heading .main-heading{
+    width: 50%;
+    text-align: center;
+    padding: 70px 0px 0px 20px;
+}
+.slider-heading .text-area .main-heading h1{
+    font-size: 60px;
+    color: #000000;
+    font-weight: 700;
+}
+.slider-heading .paragraph{
+    width: 45%;
+    padding: 20px 0px 0px 50px;
+}
+.slider-heading .paragraph p{
+    color: var(--primary-color);
+}
+.btn-wrapper{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px 0px 50px;
+}
+.btn-wrapper :first-child{
+    background-color: pink;
+}
+.btn-wrapper :last-child{
+    background-color: greenyellow;
+}
+.btn-wrapper a{
+    padding: 15px 20px;
+    border: 1px solid;
+    color: #ffffff;
+    border-radius: 15px;
+}
+/* section slider End */
+
+
+/* section Card */
+.box1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.image-wrapper{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+.box1 .image-wrapper i{
+    font-size: 50px;
+    padding: 25px;
+}
+.box .box1{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 50px 30px;
+}
+.right-side .heading h3{
+    font-size: 20px;
+}
+.right-side .para{
+    color: var(--primary-color);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: gray;
+}
+.footer-box .links{
+    display: flex;
+    gap: 20px;
+}
+.footer-box .links i{
+    color: #ffffff;
+}
+
